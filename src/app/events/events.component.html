@@ -1,0 +1,23 @@
+<div class="main-container background-main">
+    <div class="page-container">
+        <div class="subtitle-container">
+            <span>
+               <strong>Compec</strong> olarak düzenlediğimiz etkinlikler
+            </span>
+        </div>
+        <div class="paragraph-container container-sm">
+            <p>
+                Sene içerisinde gerek kulüp içinde gerekse dışa açık olarak gerçekleştirilen tüm organizasyonlarımızda üyelerimiz birbiri ile kaynaşma, organizasyonların hazırlanma aşamasında yer alarak sorumluluk bilincini arttırma ve etkinliklerimizde yer alan şirket yöneticileri ve konuşmacılarla birebir tanışıp, alan seçimi konusunda fikir edinme be akıllarındaki soru işaretlerine cevap bulma imkanına sahip olurlar.
+            </p>
+        </div>
+        <div class="events-container container-sm clearfix">
+            <a class="event" *ngFor="let event of events | async" routerLink="{{event.shortName}}">
+                    <div class="event-image">
+                        <img src="../../{{event.logoImageSrc}}" alt="{{event.name}}">
+                    </div>
+                    <h2>{{event.name}}</h2>
+            </a>
+
+        </div>
+    </div>
+</div>

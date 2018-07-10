@@ -1,0 +1,145 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'variables';
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  cursor: pointer;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+.background-main {
+  background: url(../assets/bg.jpg) $c-dark-blue no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main-container{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: auto;
+}
+
+.main-container::-webkit-scrollbar {
+  display: none;
+}
+
+.main-container::-webkit-scrollbar-track {
+  background: rgba(29,95,170,0.1);
+}
+
+.main-container::-webkit-scrollbar-thumb {
+  background: rgba(222,236,239, 0.3);
+}
+
+.page-container{
+  width: 100%;
+  font-family: $ff-pri;
+  color: white;
+  padding-bottom: 74px;
+}
+
+.container-sm{
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+}
+
+.subtitle-container strong{
+  font-weight: 700;
+}
+
+.subtitle-container{
+  border: 4px solid $c-blue;
+  color: $c-light-blue;
+  font-size: $fs-reg;
+  font-weight: 300;
+  margin: 10% 8px 0 8px;
+  vertical-align: middle;
+  text-align: center;
+  letter-spacing: 2px;
+  padding: 12px;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,1);
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,1);
+}
+
+.subtitle-container span{
+
+}
+
+.paragraph-container{
+  font-family: $ff-pri, Regular;
+  color: white;
+  font-size: $fs-sm;
+  margin-top: 50px;
+  text-align: center;
+}
+.paragraph-container p{
+  line-height: 20px;
+}
+
+
+@media screen and (min-width: $break-sm){
+  .page-container{
+    padding-top: $toolbar-heigth-md + $toolbar-margin-top-md + $toolbar-margin-bottom-md;
+    padding-bottom: 40px;
+  }
+
+  .subtitle-container {
+    font-size: $fs-med-xl;
+    margin: 130px auto 0 auto;
+  }
+
+
+
+}
+
+@media screen and (min-width: $break-md){
+
+
+}
+
+@media screen and (min-width: $break-lg) {
+  .subtitle-container {
+    border: none;
+    padding: 0;
+    font-size: $fs-med-xl;
+    -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0);
+    -moz-box-shadow: 0 0 0 0 rgba(0,0,0,0);
+    box-shadow: 0 0 0 0 rgba(0,0,0,0);
+  }
+  .subtitle-container span {
+    border: 4px solid $c-blue;
+    padding: 24px 36px;
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,1);
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,1);
+  }
+  .paragraph-container{
+    width: 50%;
+    margin: 54px auto 0 auto;
+    font-size: $fs-xreg;
+  }
+  .paragraph-container p{
+    line-height: 23px;
+  }
+
+}

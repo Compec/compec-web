@@ -1,0 +1,75 @@
+<div class="main-container background-contact">
+  <!--[style.background-image]="'url(' + imgUrl + ')'"-->
+  <div class="page-container">
+    <div class="subtitle-container contact-container">
+            <span>
+                Bize Ulaşın.
+            </span>
+    </div>
+    <div class="info-container">
+      <div class="info">
+        <fa-icon class="detail-icon" [icon]="['fas', 'map-marker-alt']" size="2x"></fa-icon>
+        <div>
+          <p class="info-title">
+            <strong>Adres:</strong>
+          </p>
+          <p class="info-detail">
+            Boğaziçi Üniversitesi Güney <br>
+            Kampüsü Erkek Yurdu Binası 1.Kat
+          </p>
+        </div>
+      </div>
+      <div class="info">
+        <fa-icon class="detail-icon" [icon]="['fas', 'envelope']" size="2x"></fa-icon>
+        <div>
+          <p class="info-title">
+            <strong>E-Mail:</strong>
+          </p>
+          <p class="info-detail">
+            compec@boun.edu.tr
+          </p>
+        </div>
+      </div>
+      <div class="info">
+        <fa-icon class="detail-icon" [icon]="['fas', 'phone']" size="2x"></fa-icon>
+        <div>
+          <p class="info-title">
+            <strong>Telefon:</strong>
+          </p>
+          <p class="info-detail">
+            +90 541 726 6836
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="social-media-container">
+      <a target="_blank" href="https://www.facebook.com/bouncompec">
+        <fa-icon class="detail-icon" [icon]="['fab', 'facebook-f']"></fa-icon>
+        <div>/bouncompec</div>
+      </a>
+      <a target="_blank" href="https://twitter.com/bouncompec">
+        <fa-icon class="detail-icon" [icon]="['fab', 'twitter']"></fa-icon>
+        <div>/bouncompec</div>
+      </a>
+      <a target="_blank" href="https://www.instagram.com/bouncompec/">
+        <fa-icon class="detail-icon" [icon]="['fab', 'instagram']"></fa-icon>
+        <div>/bouncompec</div>
+      </a>
+      <a target="_blank" href="https://www.linkedin.com/company/bouncompec/">
+        <fa-icon class="detail-icon" [icon]="['fab', 'linkedin-in']"></fa-icon>
+        <div>/company/bouncompec</div>
+      </a>
+    </div>
+  </div>
+</div>
+<!--
+<img class="hide-image" [src]="imgPreloadUrl" (load)="imgUrl = imgPreloadUrl" hidden>
+<fa-icon *ngIf="imgUrl !== imgPreloadUrl" [icon]="['fas', 'sync']" size="6x" [spin]="true"></fa-icon>
+-->
+<!-- https://stackoverflow.com/questions/47800574/gradient-over-instagram-svg-of-fontawesome-5/47801536#47801536 -->
+<svg width="0" height="0">
+  <linearGradient id="rg" r="150%" cx="30%" cy="107%">
+    <stop stop-color="#1D5FAA" offset="0" />
+    <stop stop-color="#DEECEF" offset="0.5" />
+  </linearGradient>
+</svg>

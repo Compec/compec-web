@@ -1,0 +1,264 @@
+{"team_yk" : [
+  {
+    "name": "Mert Görkçe",
+    "title": "Yönetim Kurulu Başkanı",
+    "imageSrc": "/assets/team_members/yk/mert.png",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/mertgokce",
+      "instagram": "https://www.instagram.com/mertgokce96/",
+      "twitter": "https://twitter.com/mertgokce",
+      "facebook": "https://www.facebook.com/mert.gokce.904"
+    }
+  },
+  {
+    "name" : "Kaan Ünlü",
+    "title" : "Genel Sekreter",
+    "imageSrc" :"/assets/team_members/yk/kaan.png",
+    "social": {
+      "linkedin" : "https://www.linkedin.com/in/oguzkaanunlu",
+      "instagram" : "https://www.instagram.com/_kaanunlu",
+      "twitter" : "https://twitter.com/_kaanunlu",
+      "facebook" : "https://www.facebook.com/kaanunlu"
+    }
+  },
+  {
+    "name" : "Görkem Çoklar",
+    "title" : "Kurumsal İletişim ve Finans Direktörü",
+    "imageSrc" :"/assets/team_members/yk/gorkem.png",
+    "social": {
+      "linkedin" : "https://www.linkedin.com/in/gorkemcoklar",
+      "instagram" : "https://www.instagram.com/svemiru",
+      "facebook" : "https://www.facebook.com/gorkem.coklar"
+    }
+  },
+  {
+    "name" : "Onur Can Avcı",
+    "title" : "ARGE Direktörü",
+    "imageSrc" :"/assets/team_members/yk/onurcan.png",
+    "social": {
+      "linkedin" : "https://www.linkedin.com/in/onurcanavci",
+      "instagram" : "https://www.instagram.com/onurcanavc",
+      "facebook" : "https://www.facebook.com/onurcanavci28"
+    }
+  },
+  {
+    "name" : "Yasemin Piroğlu",
+    "title" : "Organizasyon Direktörü",
+    "imageSrc" :"/assets/team_members/yk/yasemin.png",
+    "social": {
+      "linkedin" : "https://www.linkedin.com/in/yaseminpiroglu",
+      "instagram" : "https://www.instagram.com/yaseminpiroglu",
+      "twitter" : "https://twitter.com/yaseminnosko",
+      "facebook" : "https://www.facebook.com/yaseminpirogluu"
+    }
+  },
+  {
+    "name" : "Kemal Tulum",
+    "title" : "Organizasyon Direktörü",
+    "imageSrc" :"/assets/team_members/yk/kemal.png",
+    "social": {
+      "linkedin" : "https://www.linkedin.com/in/kemaltulum",
+      "instagram" : "https://www.instagram.com/kemaltulum",
+      "twitter" : "https://twitter.com/kemaltulum",
+      "facebook" : "https://www.facebook.com/kemal.tulum"
+    }
+  },
+  {
+    "name" : "Zeynep Arslan",
+    "title" : "PR Direktörü",
+    "imageSrc" :"/assets/team_members/yk/zeynep.png",
+    "social": {
+      "linkedin" : "https://www.linkedin.com/in/zeynpparslnn",
+      "instagram" : "https://www.instagram.com/zeynpparslnn",
+      "twitter" : "https://twitter.com/zeynpparslnn",
+      "facebook" : "https://www.facebook.com/zeynpparslnn"
+    }
+  }
+],
+  "events" : [
+    {
+      "name" : "Boğaziçi TechSummit",
+      "shortName" : "techsummit",
+      "place" : "Albert Long Hall",
+      "secondPlace" : "Garanti Kültür Merkezi",
+      "date" : "1-2-3 Mart",
+      "tags" : ["teknoloji"],
+      "hashtag" : "bountechsummit",
+      "description" : "Teknolojiye meraklı ve bilişim alanında hedefi olan öğrencilerin buluştuğu Boğaziçi TechSummit'te paneller, konuşmalar, şirket gezileri, workshoplar ve son teknoloji ürünler sizleri bekliyor.",
+      "websiteLink" : "https://bountechsummit.com",
+      "websiteLinkName" : "bountechsummit.com",
+      "social" : {
+        "facebook" : "https://www.facebook.com/bountechsummit",
+        "twitter" : "https://twitter.com/BounTechsummit",
+        "instagram" : "https://www.instagram.com/bountechsummit",
+        "linkedin" : "https://www.linkedin.com/company/27115200"
+      },
+      "logoImageSrc" : "assets/logos/techsummit.png",
+      "bgImageSrc" : "string",
+      "images" : [
+        {
+          "src": "/assets/gallery/techsummit/IMG_4206.JPG",
+          "thumbSrc": "/assets/gallery/techsummit/IMG_4206.JPG",
+          "desc": "Kısa bir açıklama metni gelecek buraya"
+        },
+        {
+          "src": "/assets/gallery/techsummit/IMG_4207.JPG",
+          "thumbSrc": "/assets/gallery/techsummit/IMG_4207.JPG",
+          "desc": "Kısa bir açıklama metni gelecek buraya"
+        },
+        {
+          "src": "/assets/gallery/techsummit/IMG_4208.JPG",
+          "thumbSrc": "/assets/gallery/techsummit/IMG_4208.JPG",
+          "desc": "Kısa bir açıklama metni gelecek buraya"
+        },
+        {
+          "src": "/assets/gallery/techsummit/IMG_4209.JPG",
+          "thumbSrc": "/assets/gallery/techsummit/IMG_4209.JPG",
+          "desc": "Kısa bir açıklama metni gelecek buraya"
+        },
+        {
+          "src": "/assets/gallery/techsummit/IMG_4210.JPG",
+          "thumbSrc": "/assets/gallery/techsummit/IMG_4210.JPG",
+          "desc": "Kısa bir açıklama metni gelecek buraya"
+        },
+        {
+          "src": "/assets/gallery/techsummit/IMG_4211.JPG",
+          "thumbSrc": "/assets/gallery/techsummit/IMG_4211.JPG",
+          "desc": "Kısa bir açıklama metni gelecek buraya"
+        },
+        {
+          "src": "/assets/gallery/techsummit/IMG_4212.JPG",
+          "thumbSrc": "/assets/gallery/techsummit/IMG_4212.JPG",
+          "desc": "Kısa bir açıklama metni gelecek buraya"
+        },
+        {
+          "src": "/assets/gallery/techsummit/IMG_4209.JPG",
+          "thumbSrc": "/assets/gallery/techsummit/IMG_4209.JPG",
+          "desc": "Kısa bir açıklama metni gelecek buraya"
+        },
+        {
+          "src": "/assets/gallery/techsummit/IMG_4214.JPG",
+          "thumbSrc": "/assets/gallery/techsummit/IMG_4214.JPG",
+          "desc": "Kısa bir açıklama metni gelecek buraya"
+        },
+        {
+          "src": "/assets/gallery/techsummit/IMG_4211.JPG",
+          "thumbSrc": "/assets/gallery/techsummit/IMG_4211.JPG",
+          "desc": "Kısa bir açıklama metni gelecek buraya"
+        }
+      ],
+      "show" : true
+    },
+    {
+      "name" : "Boğaziçi Bilişim Ödülleri",
+      "shortName" : "bilisimodulleri",
+      "place" : "Albert Long Hall",
+      "date" : "13 Aralık",
+      "tags" : ["bilişim"],
+      "hashtag" : "bountechsummit",
+      "description" : "Boğaziçi Bilişim Ödülleri, Boğaziçi Üniversitesi Bilişim Kulübü COMPEC'in bu sene altıncısını düzenleyeceği, halk, jüri ve bilişim kulüplerinin oylarıyla bilişim sektöründe faaliyet gösteren kişi ve kuruluşların enlerinin belirleneceği bir oylamadır.",
+      "websiteLink" : "http://www.bogazicibilisimodulleri.com/",
+      "websiteLinkName" : "www.bogazicibilisimodulleri.com",
+      "social" : {
+        "facebook" : "https://www.facebook.com/BogaziciBilisimOdulleri",
+        "twitter" : "https://twitter.com/BilisimOdulleri",
+        "instagram" : "https://www.instagram.com/bounbilisimodulleri"
+      },
+      "logoImageSrc" : "assets/logos/bbo.png",
+      "bgImageSrc" : "string",
+      "images" : [],
+      "show" : true
+    },
+    {
+      "name" : "E-Founder",
+      "shortName" : "efounder",
+      "place" : "Albert Long Hall",
+      "date" : "27 Ekim",
+      "tags" : ["girişimcilik"],
+      "hashtag" : "efounderboun",
+      "description" : "COMPEC ve BÜYAK işbirliği ile düzenlenecek olan İnternet Girişimciliği etkinliği E-Founder, fikir aşamasındaki internet girişimlerinin kendisini bir adım ileriye taşıyabileceği bootcamp, MVP aşamasındaki internet girişimlerinin ödüller kazanabileceği bir yarışma ve bu yarışmanın finaliyle birlikte güncel ve ilgi çekici başlıklara sahip paneller, inspiring talklar ve workshoplar içeren zirveden oluşur.",
+      "websiteLink" : "http://efounder.org/",
+      "websiteLinkName" : "efounder.org",
+      "social" : {
+        "facebook" : "https://www.facebook.com/efounderboun/",
+        "twitter" : "https://twitter.com/efounderboun",
+        "instagram" : "https://www.instagram.com/efounderboun/",
+        "linkedin" : "https://www.linkedin.com/company/e-founder/"
+      },
+      "logoImageSrc" : "assets/logos/efounder.png",
+      "bgImageSrc" : "string",
+      "images" : [],
+      "show" : true
+    },
+    {
+      "name" : "PlayIT",
+      "shortName" : "playit",
+      "place" : "Demir Demirgil Salonu",
+      "date" : "6 Nisan",
+      "tags" : ["oyun", "youtube", "twitch"],
+      "hashtag" : "bounplayit",
+      "description" : "Dijital oyun ve e-spor severleri bir araya getirecek olan PlayIT, son zamanların sevilen oyunlarının arkasındaki oyun şirketleri, oyun severlerin ilgiyle takip ettiği içerik siteleri, fenomen oyun yayıncıları ve e-spor dünyasının tanınan isimlerini katılımcılarla buluşturan Dijital Oyun Zirvesi'dir",
+      "websiteLink" : "http://compec.boun.edu.tr/playit/",
+      "websiteLinkName" : "compec.boun.edu.tr/playit/",
+      "social" : {
+        "instagram" : "https://www.instagram.com/bounplayit/"
+      },
+      "logoImageSrc" : "assets/logos/playit.png",
+      "bgImageSrc" : "string",
+      "images" : [],
+      "show" : true
+    },
+    {
+      "name" : "Tag Night",
+      "shortName" : "tagnight",
+      "place" : "BM B Katı",
+      "date" : "Dönemde bir tane",
+      "tags" : ["Oyun", "GuitarHero", "JusTDance"],
+      "hashtag" : "",
+      "description" : "Her yıl farklı konseptler edinen, bu sene 16.sının gerçekleşeceği, retro ve modern teknolojinin bir araya geldiği, hem eğlencenin kesintisiz devam ettiği, hem de programlama, dijital platform kullanımı gibi konularda çeşitli workshopların düzenlendiği, ödüllü yarışmalara ev sahipliği eden, 24 saat süren kulüp içi etkinliğimizdir.",
+      "logoImageSrc" : "assets/logos/tagnight.png",
+      "bgImageSrc" : "string",
+      "images" : [],
+      "show" : true
+    },
+    {
+      "name" : "P&R Days",
+      "shortName" : "pnrdays",
+      "place" : "Boğaziçi Üniversitesi Güney Meydan",
+      "date" : "2. Dönem",
+      "tags" : ["Kariyer", "Şirketler"],
+      "hashtag" : "",
+      "description" : "Boğaziçi Üniversitesi Kariyer Fuarı, öğrencileri iş dünyasına hazırlamayı amaç edinen, öğrencilerin iş ve staj imkanları hakkında detaylı bilgi edinip başvuru yapabilecekleri, kendilerine uygun sektör ya da departman seçmelerine ve iş dünyasına diğer rakiplerinden önde başlamalarına yardımcı olacak donanımı elde edebilecekleri; uzman kişiler ve firma yetkilileriyle buluşturan bir kariyer etkinliğidir.",
+      "logoImageSrc" : "assets/logos/pnrdays.png",
+      "bgImageSrc" : "string",
+      "images" : [],
+      "show" : true
+    },
+    {
+      "name" : "Hackathonlar",
+      "shortName" : "hackathons",
+      "place" : "Henüz Belli Değil",
+      "date" : "Henüz Belli Değil",
+      "tags" : ["Code", "Yarışma"],
+      "hashtag" : "bounplayit",
+      "description" : "IBM, Comodo , ESET, InventAnalytics gibi teknoloji şirketlerinin sponsorluğunda düzenlenen hackathonlar öğrencilerin yazılım bilgilerini ve yaratıcılıklarını test edebilecekleri , probleme yönelik çözüm üretme sürecini 24 saat boyunca deneyimleyebilecekleri bir ortam oluştururken şirketlerin kendilerini tanıtabilmeleri, yetenekli yazılımcıları keşfedebilmesi için de bir fırsat sağlar. 24 saat süren etkinlik , jüri değerlendirmesi ve dereceye giren takımlara ödüllerin verilmesiyle son bulur.",
+      "logoImageSrc" : "assets/logos/hackathonlar.jpg",
+      "bgImageSrc" : "string",
+      "images" : [],
+      "show" : false
+    },
+    {
+      "name" : "Eğitimler",
+      "shortName" : "egitimler",
+      "place" : "BM Sınıflar",
+      "date" : "Yıl Boyu",
+      "tags" : ["C++", "Java"],
+      "hashtag" : "",
+      "description" : "Kulübümüz dönem içerisinde ve yazları düzenlediği çeşitli sertifikalı teknik eğitimlerle, çok sayıda kişiye ulaşıyor. Android, iOS, Web teknolojileri, Unity, çeşitli programlama dilleri, çocuklar için programlama eğitim gibi geniş bir repertuarı olan Compec Academy, verdiği eğitimlerle hem gençlerin ve çocukların hem de sektör çalışanlarının kendini geliştirmesine yardımcı oluyor. Ayrıca sponsorların isteğiyle spesifik konularda da düzenleyebildiğimiz eğitimlerimiz, sponsorlar şirketlere; – Yeni teknolojilerinin tanıtımını yapmak ve hedef kitleyi eğiterek bunu kullanabilir hale getirmek, – Toplumsal fayda ile marka değerini artırmak, gibi önemli olanaklar sunuyor.",
+      "logoImageSrc" : "assets/logos/egitimler.jpg",
+      "bgImageSrc" : "string",
+      "images" : [],
+      "show" : false
+    }
+  ]
+}

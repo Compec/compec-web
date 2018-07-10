@@ -1,0 +1,45 @@
+<div class="toolbar-container" [hidden]="!toolbarShown">
+    <div>
+        <ul>
+            <li>
+                <a routerLink="/"
+                   [routerLinkActiveOptions]="{exact: true}"
+                   routerLinkActive="active" class="logo-link">
+                    <div class="logo-container">
+                        <div class="inner-logo">
+                            <img class="logo-image logo-image-white" src="../../../assets/compec1white.png" alt="Boğaziçi Üniversitesi Bilişim Kulübü - Compec">
+                            <img class="logo-image logo-image-blue" src="../../../assets/compec1blue.png" alt="Boğaziçi Üniversitesi Bilişim Kulübü - Compec">
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a routerLink="etkinliklerimiz" class="normal-link" routerLinkActive="active">
+                    <fa-icon class="detail-icon" [icon]="['far', 'calendar-alt']"></fa-icon>
+                    <span>
+                        Etkinliklerimiz
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a routerLink="hakkımızda" class="normal-link"
+                   routerLinkActive="active">
+                    <fa-icon class="detail-icon" [icon]="['fas', 'user-secret']"></fa-icon>
+                    <span>
+                        Hakkımızda
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a routerLink="bizeulas" class="normal-link"
+                   routerLinkActive="active">
+                    <fa-icon class="detail-icon" [icon]="['fas', 'life-ring']"></fa-icon>
+                    <span>
+                        Bize Ulaşın
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+

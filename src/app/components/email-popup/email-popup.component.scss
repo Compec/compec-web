@@ -1,0 +1,87 @@
+@import '../../../sass/variables';
+
+.popup-container{
+  position: absolute;
+  z-index: 11;
+  box-sizing: border-box;
+  width: 80%;
+  left: 10%;
+  top: 30vh;
+  border: 2px solid $c-blue;
+  padding: 20px;
+  color: $c-light-blue;
+  font-family: $ff-pri;
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  -webkit-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.48);
+  -moz-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.48);
+  box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.48);
+}
+
+.close-btn{
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  color: $c-blue;
+  font-size: 36px;
+  cursor: pointer;
+  padding: 0 12px;
+}
+
+.popup-container fa-icon{
+  color: $c-blue;
+}
+
+div.line{
+  width: 25%;
+  margin: 0 auto;
+  height: 4px;
+  background-color: $c-blue;
+}
+
+.popup-container form{
+  position: relative;
+}
+
+.popup-container input{
+  height: 40px;
+  border: none;
+  border-bottom: 2px solid $c-blue;
+  background: none;
+  width: 100%;
+  color: $c-light-blue;
+  font-size:  $fs-xreg;
+  padding-left: 4px;
+}
+
+.popup-container button{
+  position: absolute;
+  border-radius: 18px;
+  height: 40px;
+  width: 72px;
+  color: $c-blue;
+  font-weight: 700;
+  background: linear-gradient($c-light-gray, $c-dark-gray);
+  right: 2px;
+  bottom: 4px;
+  cursor: pointer;
+}
+
+.popup-container button[disabled]{
+  opacity: 0.8;
+  cursor: default;
+}
+
+.popup-container .warning{
+  position: absolute;
+}
+
+
+@media screen and (min-width: $break-sm){
+  .popup-container{
+    padding: 50px 40px;
+    width: 500px;
+    left: 50%;
+    margin-left: -250px;
+  }
+}

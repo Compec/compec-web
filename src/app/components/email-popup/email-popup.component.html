@@ -1,0 +1,18 @@
+<div class="popup-container">
+  <div class="close-btn" (click)="close()">&times;</div>
+  <fa-icon [icon]="['fas', 'envelope-open']" size="6x"></fa-icon>
+  <h2>Bültenimize abone ol!</h2>
+  <div class="line"></div>
+  <p>
+    Haberler, etkinlikler, iş ve staj imkanları <br> hepsi gelen kutunda!
+  </p>
+  <form #emailForm="ngForm" (ngSubmit)="saveSubscriber()">
+    <input required email name="email" #emailInput="ngModel"
+           type="email" placeholder="E-mail"
+           [(ngModel)]="email">
+    <button [disabled]="!emailForm.form.valid" type="submit">Abone ol!</button>
+    <div [hidden]="emailInput.valid || emailInput.pristine" class="warning">
+      E-mail adresinizi giriniz!
+    </div>
+  </form>
+</div>

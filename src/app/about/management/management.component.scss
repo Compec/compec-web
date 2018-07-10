@@ -1,0 +1,85 @@
+@import "../../../sass/variables";
+
+.team-container{
+  width: 96%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: $c-light-blue;
+}
+
+.member{
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+}
+
+.member img{
+  border-radius: 100%;
+  width: 60%;
+  margin: 8px auto 0 auto;
+}
+
+.member h2{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: $fs-xreg;
+  position: relative;
+  margin-top: 12px;
+  margin-bottom: 2px;
+}
+
+.member h3{
+  height: 36px;
+  margin: 0;
+  font-size: $fs-sm;
+}
+.social-media{
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 0;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-around;
+}
+.social-media a:first-child{
+  margin-top: -8px;
+}
+.social-media a:last-child{
+  margin-top: -8px;
+}
+.social-media fa-icon{
+  color: white;
+}
+
+@media screen and (min-width: $break-sm){
+  .member{
+    width: calc(100%/3);
+    padding: 16px 16px;
+  }
+}
+
+
+@media screen and (min-width: $break-md){
+  .member{
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: $break-lg){
+  .team-container{
+    margin-top: 48px;
+    width: 80%;
+  }
+  .social-media{
+    font-size: 1.4em;
+  }
+  .social-media a:first-child{
+    margin-top: -12px;
+  }
+  .social-media a:last-child{
+    margin-top: -12px;
+  }
+
+
+}

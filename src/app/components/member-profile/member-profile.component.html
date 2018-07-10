@@ -1,0 +1,19 @@
+<div class="member-container">
+  <img src="{{member.imageSrc}}" alt="{{member.name}}">
+  <div *ngIf="member.social" class="social-media">
+    <a target="_blank" *ngIf="member.social.facebook" href="{{member.social.facebook}}">
+      <fa-icon class="detail-icon" [icon]="['fab', 'facebook-f']"></fa-icon>
+    </a>
+    <a target="_blank" *ngIf="member.social.twitter" href="{{member.social.twitter}}">
+      <fa-icon class="detail-icon" [icon]="['fab', 'twitter']"></fa-icon>
+    </a>
+    <a target="_blank" *ngIf="member.social.instagram" href="{{member.social.instagram}}">
+      <fa-icon class="detail-icon" [icon]="['fab', 'instagram']"></fa-icon>
+    </a>
+    <a target="_blank" *ngIf="member.social.linkedin" href="{{member.social.linkedin}}">
+      <fa-icon class="detail-icon" [icon]="['fab', 'linkedin-in']"></fa-icon>
+    </a>
+  </div>
+  <h2>{{member.name}}</h2>
+  <h3>{{member.title}}</h3>
+</div>

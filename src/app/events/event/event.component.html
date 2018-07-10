@@ -1,0 +1,59 @@
+<div class="main-container background-main">
+  <div class="page-container event-container" *ngFor="let event of eventPage | async">
+    <img class="logo-container" src="../../../{{event.logoImageSrc}}" alt="{{event.name}}">
+    <h1>{{event.name}}</h1>
+    <div class="detail-container container-sm">
+      <div>
+        <fa-icon class="detail-icon" [icon]="['fas', 'map-marker-alt']"></fa-icon>
+        {{event.place}}
+        <span *ngIf="event.secondPlace">
+          <br>
+          {{event.secondPlace}}
+        </span>
+      </div>
+      <div>
+        <fa-icon class="detail-icon" [icon]="['far', 'clock']"></fa-icon>
+        {{event.date}}
+      </div>
+      <div>
+        <fa-icon class="detail-icon" [icon]="['fas', 'tag']" rotate="90"></fa-icon>
+        <span *ngFor="let tag of event.tags">{{tag}}</span>
+      </div>
+    </div>
+    <div class="text-container">
+      {{event.description}}
+      <br>
+    </div>
+    <a class="website-link" *ngIf="event.websiteLink" href="{{event.websiteLink}}">
+      <div class="website-button" [ngClass]="{'website-button-wider' : event.websiteLink.length > 20}">
+        <div class="inner-website-button">
+          {{event.websiteLinkName}}
+        </div>
+      </div>
+    </a>
+    <div *ngIf="event.social" class="social-media">
+      <!--
+      <div *ngIf="event.hashtag" class="hashtag">
+        #{{event.hashtag}}
+      </div> -->
+      <a *ngIf="event.social.facebook" href="{{event.social.facebook}}">
+        <fa-icon class="detail-icon" [icon]="['fab', 'facebook-f']"></fa-icon>
+      </a>
+      <a *ngIf="event.social.twitter" href="{{event.social.twitter}}">
+        <fa-icon class="detail-icon" [icon]="['fab', 'twitter']"></fa-icon>
+      </a>
+      <a *ngIf="event.social.instagram" href="{{event.social.instagram}}">
+        <fa-icon class="detail-icon" [icon]="['fab', 'instagram']"></fa-icon>
+      </a>
+      <a *ngIf="event.social.linkedin" href="{{event.social.linkedin}}">
+        <fa-icon class="detail-icon" [icon]="['fab', 'linkedin-in']"></fa-icon>
+      </a>
+    </div>
+    <div class="event-list-container">
+      <a *ngFor="let event of events | async" routerLink="{{'/etkinliklerimiz/' + event.shortName}}" routerLinkActive="active">
+        {{event.name}}
+      </a>
+    </div>
+    <app-gallery *ngIf="event.images" [images]="event.images"></app-gallery>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+{
+  "index": "/index.html",
+  "assetGroups": [{
+    "name": "app",
+    "installMode": "prefetch",
+    "resources": {
+      "files": [
+        "/favicon.ico",
+        "/index.html",
+        "/*.css",
+        "/*.js"
+      ],
+      "urls": [
+        "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700",
+        "https://fonts.gstatic.com/s/sourcesanspro/v11/**"
+      ]
+    }
+  }, {
+    "name": "assets",
+    "installMode": "lazy",
+    "updateMode": "prefetch",
+    "resources": {
+      "files": [
+        "/assets/**",
+        "/*.jpg"
+      ]
+    }
+  }],
+  "dataGroups":[{
+    "name": "api",
+    "urls":[
+      "/resources/events.json",
+      "/resources/management_yk.json"
+    ],
+    "cacheConfig":{
+      "maxAge": "1h",
+      "timeout": "10s",
+      "strategy": "performance"
+    }
+  }]
+}

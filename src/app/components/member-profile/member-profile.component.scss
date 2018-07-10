@@ -1,0 +1,67 @@
+@import "../../../sass/variables";
+
+.member-container{
+  width: 100%;
+}
+
+.member-container img{
+  border-radius: 100%;
+  width: 60%;
+  margin: 8px auto 0 auto;
+}
+
+.member-container h2{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: $fs-xreg;
+  position: relative;
+  margin-top: 12px;
+  margin-bottom: 2px;
+}
+
+.member-container h3{
+  height: 36px;
+  margin: 0;
+  font-size: $fs-sm;
+}
+.social-media{
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 0;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-around;
+}
+.social-media a:first-child{
+  margin-top: -8px;
+}
+.social-media a:last-child{
+  margin-top: -8px;
+}
+.social-media fa-icon{
+  color: white;
+}
+
+
+@media screen and (min-width: $break-sm){
+
+}
+
+
+@media screen and (min-width: $break-md){
+
+}
+
+@media screen and (min-width: $break-lg){
+  .social-media{
+    font-size: 1.4em;
+  }
+  .social-media a:first-child{
+    margin-top: -12px;
+  }
+  .social-media a:last-child{
+    margin-top: -12px;
+  }
+
+
+}

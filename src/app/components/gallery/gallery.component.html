@@ -1,0 +1,27 @@
+<div class="gallery-item-container clearfix" [ngClass]="{'gallery-open' : showMobileGallery}">
+  <div class="gallery-item" *ngFor="let image of images; let i = index">
+    <img src="{{image.thumbSrc}}" alt="{{image.desc}}" (click)="selectImage(image, i)">
+  </div>
+</div>
+
+<div class="gallery-overlay" *ngIf="showOverlay" [hidden]="!showOverlay">
+  <div class="image-container">
+    <div class="button close-button" (click) = "closeOverlay()">
+      <fa-icon class="detail-icon" [icon]="['fas', 'times']"></fa-icon>
+    </div>
+    <div class="button next-button" (click)="changeImageByIndex(currentImageIndex+1)">
+      <fa-icon class="detail-icon" [icon]="['fas', 'chevron-right']"></fa-icon>
+    </div>
+    <div class="button prev-button" (click)="changeImageByIndex(currentImageIndex-1)">
+      <fa-icon class="detail-icon" [icon]="['fas', 'chevron-left']"></fa-icon>
+    </div>
+    <img src="{{currentImage.src}}" alt="{{currentImage.desc}}">
+  </div>
+  <p class="description">
+    {{currentImage.desc}}
+  </p>
+</div>
+
+<div *ngIf="images" class="mobile-action-button" (click)="toggleMobileGallery()">
+  <fa-icon class="detail-icon" [icon]="['fas', 'images']"></fa-icon>
+</div>

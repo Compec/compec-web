@@ -1,0 +1,14 @@
+<div class="main-container background-main">
+  <div class="page-container">
+    <div class="subtitle-container">
+            <span>
+                Yönetim Kurulumuz
+            </span>
+    </div>
+    <div class="team-container clearfix">
+      <div *ngFor="let yk of team_yk | async" class="member">
+        <app-member-profile [member]="yk"></app-member-profile>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,68 @@
+@import "../../sass/variables";
+
+.events-container{
+
+}
+
+.event{
+  display: block;
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.event-image{
+  padding: 4px;
+  margin: 4px;
+  background-color: rgba(219,228,238,0.8);
+}
+
+.event img{
+  width: 100%;
+  height: 80px;
+  object-fit: contain;
+}
+
+.event h2{
+  margin-top: 4px;
+  font-size: $fs-xreg;
+  font-weight: 400;
+}
+
+.events-container a, .event-list-container a{
+  text-decoration: none;
+  color: white;
+  font-size: $fs-xreg;
+  line-height: 23px;
+}
+
+@media screen and (min-width: $break-sm){
+  .event{
+    width: calc(100%/3);
+  }
+
+  .event img{
+    height: 120px;
+  }
+
+}
+
+@media screen and (min-width: $break-md){
+  .event{
+    width: 25%;
+  }
+
+}
+
+@media screen and (min-width: $break-lg) {
+  .events-container{
+    margin-top: 80px;
+    width:1280px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .event{
+    float:none;
+    flex: 1;
+  }
+}

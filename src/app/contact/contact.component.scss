@@ -1,0 +1,145 @@
+@import "../../sass/variables";
+
+/*
+.main-container{
+  background-image: url("../../assets/bg_contact.jpg");
+}
+*/
+
+.background-contact{
+  background: url("../../assets/bg_contact.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contact-container{
+  font-family: $ff-pri;
+}
+
+.info-container .info{
+  text-align: center;
+  width: 33%;
+}
+
+.info-container{
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10vh;
+}
+
+.info-title{
+  display: none;
+  font-size: $fs-med;
+  line-height: 31px;
+  text-align: left;
+  margin: 0;
+
+}
+
+.info-detail{
+  font-size: $fs-sm;
+  line-height: 23px;
+  opacity: 0.4;
+  margin: 0;
+}
+
+.detail-icon {
+  color: $c-blue;
+}
+
+.social-media-container{
+  margin-top: 40px;
+}
+
+.social-media-container a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  float: left;
+  width: 50%;
+  display: block;
+  box-sizing: border-box;
+  padding: 12px;
+  line-height: 31px;
+}
+
+.social-media-container .detail-icon{
+  font-size: 1.3em;
+}
+
+@media screen and (min-width: $break-sm){
+  .info-container .detail-icon{
+    font-size: 2em;
+  }
+  .info-container .info{
+    display: flex;
+    justify-content: center;
+  }
+  .info-container .info div{
+    padding-left: 18px;
+  }
+  .info-detail{
+    font-size: $fs-xreg;
+    text-align: left;
+  }
+  .info-title{
+    display: block;
+  }
+  .social-media-container{
+    width: 600px;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-media-container a{
+    float: none;
+    width: auto;
+  }
+
+  .social-media-container a div{
+    font-size: $fs-xreg;
+  }
+
+  .social-media-container .detail-icon{
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: $break-md){
+  .info-container{
+    margin-top: 192px;
+  }
+  .info-container .detail-icon{
+    font-size: 2.5em;
+  }
+  .social-media-container{
+    width: 960px;
+  }
+
+  .social-media-container a{
+
+  }
+
+  .social-media-container a div{
+    font-size: $fs-med;
+    padding-left: 12px;
+  }
+
+  .social-media-container .detail-icon{
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (min-width: $break-lg){
+  .info-container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

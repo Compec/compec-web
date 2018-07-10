@@ -1,0 +1,49 @@
+<div class="main-container background-main">
+    <div class="page-container">
+        <div class="subtitle-container">
+            <span>
+                Kim bu <strong>Compec?</strong>
+            </span>
+        </div>
+        <div class="paragraph-container container-sm">
+            <p>
+                Compec olarak tamamı Boğaziçi Üniversitesi öğrencilerinden oluşan üyelerimizin ve Türkiye’nin birçok üniversitesinden gelen katılımcılarımızın; sosyalleşmelerini, teknik olarak kendilerini geliştirmelerini, organizasyon tecrübesi kazanmalarını, kariyer planlaması yapmalarını kolaylaştırmayı amaçlıyoruz.
+            </p>
+            <p>
+                Bu amaçlar doğrultusunda çeşitli alanlarda etkinliklerle her yıl daha da büyüyerek katılımcıları sektörün önde gelen firmaları, isimleri ve markalarıyla buluşturuyoruz.
+            </p>
+            <br>
+            <p>
+                <strong>
+                    1994 yılından bu yana faaliyet gösteren Boğaziçi Üniversitesi'nin tek bilişim ve kariyer kulübüyüz.
+                </strong>
+            </p>
+        </div>
+        <div class="subtitle-container">
+            <span>
+                Yönetim Kurulumuz
+            </span>
+        </div>
+        <div class="team-container clearfix">
+            <div *ngFor="let yk of team_yk | async" class="member">
+                <img src="{{yk.imageSrc}}" alt="{{yk.name}}">
+                <div *ngIf="yk.social" class="social-media">
+                    <a target="_blank" *ngIf="yk.social.facebook" href="{{yk.social.facebook}}">
+                        <fa-icon class="detail-icon" [icon]="['fab', 'facebook-f']"></fa-icon>
+                    </a>
+                    <a target="_blank" *ngIf="yk.social.twitter" href="{{yk.social.twitter}}">
+                        <fa-icon class="detail-icon" [icon]="['fab', 'twitter']"></fa-icon>
+                    </a>
+                    <a target="_blank" *ngIf="yk.social.instagram" href="{{yk.social.instagram}}">
+                        <fa-icon class="detail-icon" [icon]="['fab', 'instagram']"></fa-icon>
+                    </a>
+                    <a target="_blank" *ngIf="yk.social.linkedin" href="{{yk.social.linkedin}}">
+                        <fa-icon class="detail-icon" [icon]="['fab', 'linkedin-in']"></fa-icon>
+                    </a>
+                </div>
+                <h2>{{yk.name}}</h2>
+                <h3>{{yk.title}}</h3>
+            </div>
+        </div>
+    </div>
+</div>
